@@ -86,6 +86,9 @@ def print_grid(grid, path=None):
     for row in visual:
         print(" ".join(row))
 
+def hello():
+    print("Hello, A* Pathfinding!")
+
 def main():
     grid = [
         [0, 0, 0, 0, 0, 1, 0],
@@ -105,3 +108,4 @@ def main():
         print_grid(grid, path)
     else:
         print("No path found.")
+    hello()
