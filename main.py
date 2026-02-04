@@ -85,23 +85,3 @@ def print_grid(grid, path=None):
 
     for row in visual:
         print(" ".join(row))
-
-def main():
-    grid = [
-        [0, 0, 0, 0, 0, 1, 0],
-        [1, 1, 0, 1, 0, 1, 0],
-        [0, 0, 0, 1, 0, 0, 0],
-        [0, 1, 1, 1, 1, 1, 0],
-        [0, 0, 0, 0, 0, 0, 0],
-    ]
-
-    start = (0, 0)
-    goal = (4, 6)
-
-    path = astar(grid, start, goal, allow_diagonal=False)
-
-    if path:
-        print("Path found:")
-        print_grid(grid, path)
-    else:
-        print("No path found.")
