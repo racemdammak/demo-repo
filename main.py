@@ -88,6 +88,7 @@ def print_grid(grid, path=None):
 
 def hello():
     print("Hello, A* Pathfinding!")
+    print("This is a simple implementation of the A* algorithm in Python.")
 
 def main():
     grid = [
