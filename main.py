@@ -1,8 +1,5 @@
 import heapq
 
-# =========================
-# Heuristic function
-# =========================
 def heuristic(a, b):
     """
     Manhattan distance heuristic
@@ -10,9 +7,6 @@ def heuristic(a, b):
     return abs(a[0] - b[0]) + abs(a[1] - b[1])
 
 
-# =========================
-# A* Algorithm
-# =========================
 def astar(grid, start, goal, allow_diagonal=False):
     """
     grid : 2D list (0 = free cell, 1 = obstacle)
@@ -70,9 +64,6 @@ def astar(grid, start, goal, allow_diagonal=False):
     return None
 
 
-# =========================
-# Path reconstruction
-# =========================
 def reconstruct_path(came_from, current):
     path = [current]
     while current in came_from:
@@ -80,10 +71,6 @@ def reconstruct_path(came_from, current):
         path.append(current)
     return path[::-1]
 
-
-# =========================
-# Grid visualization
-# =========================
 def print_grid(grid, path=None):
     visual = [["." for _ in row] for row in grid]
 
