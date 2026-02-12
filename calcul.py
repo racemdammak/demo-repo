@@ -9,11 +9,10 @@ def subtract(x, y):
 def multiply(x, y):
     return x * y
 
-def divide(a, b):
-    # Fix for ticket: Handle division by zero
-    if b == 0:
-        return 0
-    return a / b
+def divide(x, y):
+    if y == 0:
+        return "Error! Division by zero."
+    return x / y
 
 def calculator():
     print("--- Python Calculator ---")
