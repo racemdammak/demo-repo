@@ -10,3 +10,6 @@ def handle_user_checkout(user_id, cart_items):
         return "Checkout Complete"
     
     return "Failed"
+
+def call_payment():
+    return process_transaction(500)
