@@ -1,3 +1,3 @@
 def legacy_process(data):
-    # new test
+    # test 10
     return data["value"] * 10
