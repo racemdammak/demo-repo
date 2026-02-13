@@ -2,10 +2,6 @@
 from payment_processor import process_transaction, log_transaction
 
 def handle_user_checkout(user_id, cart_items):
-    """
-    Orchestrates the checkout.
-    ARCHITECTURAL FLAW: Calls log_transaction without a cleanup strategy.
-    """
     total = sum(item['price'] for item in cart_items)
     
     # Passing raw user input directly to the dependency
