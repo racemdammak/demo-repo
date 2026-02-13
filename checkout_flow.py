@@ -1,4 +1,3 @@
-# checkout_flow.py
 from payment_processor import process_transaction, log_transaction
 
 def handle_user_checkout(user_id, cart_items):
