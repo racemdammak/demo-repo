@@ -1,3 +1,3 @@
 def legacy_process(data):
-    # test 16555hgj5 :)
+    # test 16555hg
     return data["value"] * 10
