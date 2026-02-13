@@ -3,7 +3,6 @@ from payment_processor import process_transaction, log_transaction
 def handle_user_checkout(user_id, cart_items):
     total = sum(item['price'] for item in cart_items)
     
-    # Passing raw user input directly to the dependency
     result = process_transaction(total, "USD")
     
     if result['status'] == 'success':
