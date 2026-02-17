@@ -8,6 +8,7 @@ def main():
     print('hello task manager, bch nched n9ata3 cha3ri')
     print("wlh 3ib wmlllkdfklvkgehsnkughjrg")
     print("excellent")
+    print("dalanda zidou 9ahwa")
 
     while True:
         print("\n=== Smart Task Manager ===")
