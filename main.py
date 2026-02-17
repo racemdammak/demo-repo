@@ -5,6 +5,7 @@ from storage import save_tasks, load_tasks
 def main():
     manager = TaskManager()
     manager.tasks = load_tasks()
+    print('hello task manager')
 
     while True:
         print("\n=== Smart Task Manager ===")
