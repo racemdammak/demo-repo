@@ -7,6 +7,7 @@ def main():
     manager.tasks = load_tasks()
     print('hello task manager, bch nched n9ata3 cha3ri')
     print("wlh 3ib wmlllkdfklvkgehsnkughjrg")
+    print("excellent")
 
     while True:
         print("\n=== Smart Task Manager ===")
