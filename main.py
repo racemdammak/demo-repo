@@ -9,6 +9,7 @@ def main():
     print("wlh 3ib wmlllkdfklvkgehsnkughjrg")
     print("excellent")
     print("dalanda zidou 9ahwa")
+    print(TaskManager.add_task)
 
     while True:
         print("\n=== Smart Task Manager ===")
