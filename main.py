@@ -1,7 +1,7 @@
 from task_manager import TaskManager
 from storage import save_tasks, load_tasks
 
-#task manager main
+#task manager
 def main():
     manager = TaskManager()
     manager.tasks = load_tasks()
