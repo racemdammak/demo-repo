@@ -8,7 +8,7 @@ def run_new_feature():
     # 2. TRIGGER: MIDDLE-AGE GAP
     # middleware.py is 60 days old (ignored by old buckets, caught by Relative Age logic).
     
-    init() # 3. TRIGGER: SYMBOL AMBIGUITY
+    init() 
            # System must verify this is shared.utils.init, NOT database.legacy_provider.init.
            
     result = processing_helper("test_input")
